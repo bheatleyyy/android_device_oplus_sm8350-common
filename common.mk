@@ -308,13 +308,10 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/nfc/libnfc-hal-st.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-hal-st.conf
 endif
 ifeq ($(OPLUS_DEVICE_USES_SN100X_NFC),true)
-PRODUCT_SOONG_NAMESPACES += \
-    vendor/nxp/opensource/sn100x
 PRODUCT_PACKAGES += \
+    android.hardware.nfc_snxxx@1.2-service \
     com.android.nfc_extras \
-    nqnfcinfo \
-    Tag \
-    vendor.nxp.hardware.nfc@2.0-service
+    Tag
 endif
 
 PRODUCT_COPY_FILES += \
