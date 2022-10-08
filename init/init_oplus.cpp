@@ -47,6 +47,8 @@ void vendor_load_properties() {
                 OverrideProperty("ro.product.product.model", "LE2110");
             } else if (device == "OnePlus9Pro") {
                 OverrideProperty("ro.product.product.model", "LE2120");
+            } else if (device == "OnePlus9RT") {
+                OverrideProperty("ro.product.product.model", "MT2111");
             }
             break;
         case 12: // TMO
