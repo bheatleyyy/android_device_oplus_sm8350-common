@@ -23,32 +23,6 @@ vendor/lib64/vendor.qti.hardware.dsp@1.0.so
 # ANT+
 vendor/lib64/hw/com.dsi.ant@1.0-impl.so
 
-# Audio
-vendor/lib/liba2dpoffload.so
-vendor/lib/libextcamera_client.so
-vendor/lib/libgui1_vendor.so
-vendor/lib/libssrec.so
-vendor/lib/vendor.oplus.hardware.extcamera@1.0.so
-
-# Audio libraries
-vendor/lib/soundfx/libasphere.so
-vendor/lib/soundfx/libqcbassboost.so
-vendor/lib/soundfx/libqcreverb.so
-vendor/lib/soundfx/libqcvirt.so
-vendor/lib/soundfx/libshoebox.so
-vendor/lib/libacdb-fts.so
-vendor/lib/libacdbloader.so
-vendor/lib/libacdbrtac.so
-vendor/lib/libadiertac.so
-vendor/lib/libadm.so
-vendor/lib/libadsprpc.so
-vendor/lib/libaudcal.so
-vendor/lib/libaudio_log_utils.so
-vendor/lib/libaudioparsers.so
-vendor/lib/libhdmipassthru.so
-vendor/lib/libqtigef.so
-vendor/lib64/libadsprpc.so
-
 # Bluetooth
 vendor/bin/hw/android.hardware.bluetooth@1.0-service-qti
 vendor/etc/init/android.hardware.bluetooth@1.0-service-qti.rc
@@ -442,13 +416,6 @@ vendor/lib64/vendor.qti.ims.rcsconfig@2.0.so
 vendor/lib64/vendor.qti.ims.rcsconfig@2.1.so
 vendor/lib64/vendor.qti.imsrtpservice@3.0-service-Impl.so
 vendor/lib64/vendor.qti.imsrtpservice@3.0.so
-
-# Iris
-odm/lib64/libpwirisfeature.so
-odm/lib64/libpwirishalwrapper.so
-odm/lib64/vendor.pixelworks.hardware.display@1.0.so
-odm/lib64/vendor.pixelworks.hardware.display@1.1.so
-odm/lib64/vendor.pixelworks.hardware.feature@1.0.so
 
 # IRQ balance
 vendor/bin/msm_irqbalance
